@@ -5,3 +5,5 @@ terraform validate
 terraform plan -var-file=variables.tfvars -lock=false
 
 terraform apply -var-file=variables.tfvars --auto-approve -lock=false
+
+terraform destroy -var-file=variables.tfvars --auto-approve -lock=false
